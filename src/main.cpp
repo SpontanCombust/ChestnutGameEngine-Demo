@@ -90,7 +90,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         engine.attachSystem(new CSimple2DCollisionSystem);
         engine.attachSystem(new CSimple2DAnimationSystem);
         engine.attachSystem(new CSimple2DRenderingSystem);
-        engine.attachSystem(new CDebugGuiRenderingSystem);
+        // engine.attachSystem(new CDebugGuiRenderingSystem);
 
         engine.start();
 
