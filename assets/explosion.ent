@@ -1,0 +1,73 @@
+{
+    "chestnut::engine::CAnimation2DComponent": {
+        "animSpeedMultiplier": 1.0,
+        "animationResource": "explosion.anim",
+        "currentAnimName": "flame_center",
+        "elapsedAnimTimeSec": 0.0,
+        "isAnimPaused": false,
+        "isAnimPlaying": true,
+        "remainingAnimLoops": -1
+    },
+    "chestnut::engine::CCollision2DComponent": {
+        "collider": {
+            "activity": "DYNAMIC",
+            "policyFlags": [
+                "TRIGGER"
+            ],
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "size": {
+                "x": 30.0,
+                "y": 30.0
+            }
+        },
+        "colliderOutline": false,
+        "variant": "box"
+    },
+    "chestnut::engine::CModel2DComponent": {
+        "origin": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "size": {
+            "x": 32.0,
+            "y": 32.0
+        }
+    },
+    "chestnut::engine::CSpriteComponent": {
+        "adjust": "SCALED",
+        "sprite": {
+            "clipRect": {
+                "h": 32.0,
+                "w": 32.0,
+                "x": 96.0,
+                "y": 64.0
+            },
+            "textureResource": "explosion.texture",
+            "tint": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tintFactor": 0.0
+        }
+    },
+    "chestnut::engine::CTransform2DComponent": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        }
+    },
+    "ExplosionComponent": {}
+}

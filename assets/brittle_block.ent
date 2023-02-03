@@ -1,0 +1,67 @@
+{
+    "chestnut::engine::CCollision2DComponent": {
+        "collider": {
+            "activity": "STATIC",
+            "policyFlags": [
+                "AFFECTING",
+                "TRIGGER"
+            ],
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "size": {
+                "x": 32.0,
+                "y": 32.0
+            }
+        },
+        "colliderOutline": false,
+        "variant": "box"
+    },
+    "chestnut::engine::CModel2DComponent": {
+        "origin": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "size": {
+            "x": 32.0,
+            "y": 32.0
+        }
+    },
+    "chestnut::engine::CSpriteComponent": {
+        "adjust": "SCALED",
+        "sprite": {
+            "clipRect": {
+                "h": 32.0,
+                "w": 32.0,
+                "x": 0.0,
+                "y": 0.0
+            },
+            "textureResource": "brittle_block.texture",
+            "tint": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tintFactor": 0.0
+        }
+    },
+    "chestnut::engine::CTransform2DComponent": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        }
+    },
+    "BlockComponent": {
+        "breakable": true
+    }
+}

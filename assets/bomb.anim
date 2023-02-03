@@ -1,0 +1,15 @@
+{
+    "keyFrameClippingRectangles": [
+        [1.0,   1.0,  32.0, 32.0],
+        [33.0,  1.0,  32.0, 32.0],
+        [65.0,  1.0,  32.0, 32.0]
+    ],
+
+    "animationDefinitions" : [
+        {
+            "name": "expand",
+            "duration": 4.0,
+            "frameIndices": [0, 1, 2]
+        }
+    ]
+}

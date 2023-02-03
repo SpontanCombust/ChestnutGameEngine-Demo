@@ -1,0 +1,94 @@
+{
+    "chestnut::engine::CAnimation2DComponent": {
+        "animSpeedMultiplier": 1.0,
+        "animationResource": "player.anim",
+        "currentAnimName": "idle_down",
+        "elapsedAnimTimeSec": 0.0,
+        "isAnimPaused": false,
+        "isAnimPlaying": true,
+        "remainingAnimLoops": -1
+    },
+    "chestnut::engine::CCollision2DComponent": {
+        "collider": {
+            "activity": "DYNAMIC",
+            "policyFlags": [
+                "AFFECTED",
+                "TRIGGER"
+            ],
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "size": {
+                "x": 20.0,
+                "y": 26.0
+            }
+        },
+        "colliderOutline": false,
+        "variant": "box"
+    },
+    "chestnut::engine::CModel2DComponent": {
+        "origin": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "size": {
+            "x": 32.0,
+            "y": 32.0
+        }
+    },
+    "chestnut::engine::CSpriteComponent": {
+        "adjust": "SCALED",
+        "sprite": {
+            "clipRect": {
+                "h": 0.0,
+                "w": 0.0,
+                "x": 0.0,
+                "y": 0.0
+            },
+            "textureResource": "player.texture",
+            "tint": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tintFactor": 0.0
+        }
+    },
+    "chestnut::engine::CTransform2DComponent": {
+        "position": {
+            "x": 50.0,
+            "y": 120.0
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        }
+    },
+    "chestnut::engine::CKinematics2DComponent": {
+        "angularAcceleration": 0.0,
+        "angularVelocity": 0.0,
+        "linearAcceleration": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "linearVelocity": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "chestnut::engine::CIdentityComponent": {
+        "name": "Player"
+    },
+    "PlayerComponent": {
+        "movementDirection": {
+            "x": 0.0,
+            "y": 1.0
+        }
+    }
+}

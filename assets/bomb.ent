@@ -1,0 +1,54 @@
+{
+    "chestnut::engine::CAnimation2DComponent": {
+        "animSpeedMultiplier": 1.0,
+        "animationResource": "bomb.anim",
+        "currentAnimName": "expand",
+        "elapsedAnimTimeSec": 0.0,
+        "isAnimPaused": false,
+        "isAnimPlaying": true,
+        "remainingAnimLoops": 1
+    },
+    "chestnut::engine::CModel2DComponent": {
+        "origin": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "size": {
+            "x": 32.0,
+            "y": 32.0
+        }
+    },
+    "chestnut::engine::CSpriteComponent": {
+        "adjust": "SCALED",
+        "sprite": {
+            "clipRect": {
+                "x": 0.0,
+                "y": 0.0,
+                "h": 32.0,
+                "w": 32.0
+            },
+            "textureResource": "bomb.texture",
+            "tint": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "tintFactor": 0.0
+        }
+    },
+    "chestnut::engine::CTransform2DComponent": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        }
+    },
+    "BombComponent": {
+        "fuseLeftSec": 4.0,
+        "explosionDuration": 2.5
+    }
+}

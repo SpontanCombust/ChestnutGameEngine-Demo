@@ -1,0 +1,44 @@
+{
+    "keyFrameClippingRectangles": [
+        [1.0,   1.0,    31.0, 31.0],
+        [33.0,  1.0,    31.0, 31.0],
+        [1.0,   33.0,   31.0, 31.0],
+        [33.0,  33.0,   31.0, 31.0],
+        [1.0,   65.0,   31.0, 31.0],
+        [33.0,  65.0,   31.0, 31.0],
+        [1.0,   97.0,   31.0, 31.0],
+        [33.0,  97.0,   31.0, 31.0],
+        [1.0,   129.0,  31.0, 31.0],
+        [33.0,  129.0,  31.0, 31.0]
+    ],
+
+    "animationDefinitions" : [
+        {
+            "name": "flame_center",
+            "duration": 0.5,
+            "frameIndices": [0, 1]
+        },
+        {
+            "name": "flame_down",
+            "duration": 0.5,
+            "frameIndices": [2, 3]
+        },
+        {
+            "name": "flame_left",
+            "duration": 0.5,
+            "frameIndices": [4, 5]
+        },
+        {
+            "name": "flame_up",
+            "duration": 0.5,
+            "frameIndices": [6, 7]
+        },
+        {
+            "name": "flame_right",
+            "duration": 0.5,
+            "frameIndices": [8, 9]
+        }
+    ],
+    
+    "defaultAnimationFrameIndex" : 0
+}
